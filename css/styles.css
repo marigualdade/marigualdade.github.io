@@ -1,0 +1,149 @@
+#cover {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/ondadaigualdade.png);
+    background-size: cover;
+    background-position: top left;
+    /* Fallback font-size */
+    font-size: 50px;
+    color: white;
+    align-items: center;
+}
+
+.slide {
+    min-height: 100vh;
+    width: 100%;
+    padding: 15vh 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.slide-not-touch {
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.no-padding {
+    padding: 0;
+}
+
+.bg-1 {
+    background-color: #005458;
+    color: white;
+}
+.bg-2 {
+    background-color: #09788f;
+    color: white;
+}
+.bg-3 {
+    background-color: #4499a2;
+    color: white;
+}
+.bg-4 {
+    background-color: #87bcc0;
+    color: black;
+}
+.bg-5 {
+    background-color: #bcd9ea;
+    color: black;
+}
+
+/*  Code from https://blog.hubspot.com/website/hide-scrollbar-css
+    hide scrollbar but allow scrolling */
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+.no-indent {
+    text-indent: 0px;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 24px;
+}
+
+.image-row {
+    height:  30vh;
+    width: 100%;
+}
+.image {
+    height: 100%;
+    background: var(--url);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    position: relative;
+}
+.image::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    background: url(../images/arrows-angle-expand.svg);
+    background-size: cover;
+}
+.surf-para-todos {
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    transition: all 0.75s ease;
+}
+.flex-grow-1 {
+    flex-grow: 1;
+}
+.flex-grow-2 {
+    flex-grow: 2;
+}
+.flex-grow-3 {
+    flex-grow: 3;
+}
+.flex-grow-4 {
+    flex-grow: 4;
+}
+.flex-grow-5 {
+    flex-grow: 5;
+}
+.flex-grow-6 {
+    flex-grow: 6;
+}
+.flex-grow-7 {
+    flex-grow: 7;
+}
+.flex-grow-8 {
+    flex-grow: 8;
+}
+.flex-grow-9 {
+    flex-grow: 9;
+}
+.flex-grow-10 {
+    flex-grow: 10;
+}
+.flex-grow-11 {
+    flex-grow: 11;
+}
+.flex-grow-12 {
+    flex-grow: 12;
+}
+.spacer-48 {
+    height: 48px;
+}
+.spacer-24 {
+    height: 14px;
+}
