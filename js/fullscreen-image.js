@@ -1,7 +1,6 @@
 // Inspired on https://stackoverflow.com/questions/52766477/animate-a-div-to-full-screen-from-its-position
 document.addEventListener('DOMContentLoaded', () => {
     let images = document.querySelectorAll('.image');
-    console.log('images');
     images.forEach((image) => {
         image.onclick = () => {
             enterFullscreen(image);

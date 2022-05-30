@@ -62,16 +62,19 @@ body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
 .video {
-    height: 70vh;
+    height: 96vh;
     width: 100%;
+    display: block;
 }
-
 p {
     text-indent: 20px;
     text-align: justify;
 }
 .no-indent {
     text-indent: 0px;
+}
+.video-slide {
+    padding: 2vh 2vw;
 }
 
 ul {
