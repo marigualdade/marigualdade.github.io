@@ -45,6 +45,10 @@
     background-color: #bcd9ea;
     color: black;
 }
+.bg-6 {
+    background-color: #e5f1f8;
+    color: black;
+}
 
 /*  Code from https://blog.hubspot.com/website/hide-scrollbar-css
     hide scrollbar but allow scrolling */
@@ -56,6 +60,10 @@ body {
 
 body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
+}
+.video {
+    height: 70vh;
+    width: 100%;
 }
 
 p {
