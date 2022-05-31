@@ -1,7 +1,7 @@
 #cover {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/ondadaigualdade.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/cover.jpg);
     background-size: cover;
-    background-position: top left;
+    background-position: center;
     /* Fallback font-size */
     font-size: 50px;
     color: white;
